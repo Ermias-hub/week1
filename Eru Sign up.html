@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <style>
+         
+        body{font-family: Arial, Helvetica, sans-serif;background: url('Muller.jpg')}
+    .signUp{
+        margin: 100px;
+        margin-left: 500px;
+        background-color:rgba(255, 225, 255, 0.7);
+        width: 30%;
+        height: 670px;
+        border-radius: 20px;
+
+    }
+    .inputspace{
+        width: 80%;
+        border-radius: 20px;
+        margin: 8px;
+        padding: 8px;
+        background-color: rgba(255, 225, 255, 0.4);
+    }
+    .eruformasione{
+        margin: 40px;
+    }
+    .signUp h1{
+        margin-left: 95px; color: blue;
+    }
+    .signUp img{
+        border-radius: 60px;
+        width: 70px;
+        margin-left: 160px;
+        margin-top: -32px;}
+    .signupbtn{
+        width: 100%; border-radius: 20px; background-color: rgba(20, 241, 20, 0.5)
+    }
+    #loginwithfacebook{
+        background-color: blue;
+    }
+    hr{
+        width: 250px; margin-top: 25px;
+    }
+    .or{
+        margin-top: -20px; margin-left: 145px;
+    }
+   .signup-font{
+       color: white;
+   }
+    </style>
+</head>
+<body>
+ <div class="signUp">
+     <img src="Muller.png" alt="" >
+    <h1>Sign Up Form</h1>
+    <form class="eruformasione">
+            <input type="text" placeholder="First Name" class="inputspace" required>
+            <input type="text" placeholder="Last Name" class="inputspace" required>
+            <input type="email" placeholder="Your email" class="inputspace" required>
+            <input type="password" placeholder="Enter new password" class="inputspace" required>
+            <input type="password" placeholder="Confirm your password" class="inputspace" required>
+            <p><input type="checkbox" checked="checked" name="agree" >I agree to the terms of service</p>
+            <button class="signupbtn"> <p class="signup-font"> Sign Up</p></button>
+            <hr>
+            <p class="or">OR</p>
+            <button class="signupbtn" id="loginwithfacebook"><p class="signup-font">Login with Facebook</p></button>
+            <p>Do you have an account?<a href="#">Sign In</a></p>
+    </form>
+ </div>
+</body>
+</html>
